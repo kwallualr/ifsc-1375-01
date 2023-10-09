@@ -1,0 +1,70 @@
+/* Style for CSS-Demo */
+
+/* Box Sizing */
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+/* Global Styles */
+body{
+  font-family: 'Gabarito', sans-serif;
+  margin: 0;
+}
+
+header.primary{
+  background-color: #3b638b;
+  color:#ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  padding:40px;
+}
+
+header.primary h1{
+  font-size: 2.4rem;
+  margin: 20px 0 10px;
+}
+
+header.primary h1 a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header.primary h2{
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+header.primary nav{
+  background-color: pink;
+  max-width: 900px;
+  margin-left: 20px auto;
+}
+
+header.primary nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:0;
+}
+
+header.primary nav ul il{
+  list-style-type: none;
+}
+
+header.primary nav ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgdb(0,0,0,.4);
+  padding: 5px 10px;
+  border: 1px solid #282828;
+  border-radius: 20px;
+  transition: .4s;
+}
+
+header.primary nav ul li a:hover{
+  background-color: rgdb(0,0,0,.8);
+}
