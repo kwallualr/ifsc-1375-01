@@ -9,6 +9,16 @@ html{
 *:after{
   box-sizing: inherit;
 }
+/* Responsive Images */
+img{
+  max-width: 100%;
+  height: auto;
+}
+/* Utility Classes */
+.container{
+  max-width: 80vw;
+  margin: 40px auto;
+}
 /* Global Styles */
 body{
   font-family: 'Gabarito', sans-serif;
@@ -67,4 +77,77 @@ header.primary nav ul li a{
 
 header.primary nav ul li a:hover{
   background-color: rgdb(0,0,0,.8);
+}
+
+#intro{
+  border-bottom: 1px dotted #c0c0c0;
+  padding-bottom: 14px;
+}
+
+#intro h2{
+  color: #3b638b;
+  border-bottom: 1px dotted #c0c0c0;
+}
+
+#content{
+  display:flex;
+  gap: 20px;
+}
+
+#content .post{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+  padding: 10px;
+  font-size: 8rem;
+}
+
+#content article.post:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+}
+
+article.post figure{
+  margin:0;
+}
+
+article.post time.post-date, article.post figcaption, article.post .post-meta{
+  text-trandform: uppercase;
+}
+
+article.post a{
+  color: #3b638b;
+}
+
+article.post a:hover{
+  text-decoration: none;
+}
+
+article.post img{
+  border: 1px solid #c0c0c0;
+  padding: 2px 2px 20px 2px;
+  margin: 10px auto;
+}
+
+aside [role="complementary"]{
+  background-color: #172635;
+  color: #ffffff;
+  padding: 1.9rem;
+}
+
+aside .container{
+  display: flex;
+  gap: 40px;
+}
+/* Media Queries */
+@media screen and (max-width: 600px){
+ 
+  header.primary nav ul{
+    flex-direction: column;
+    max-width: 250px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  header.primary nav ul a{
+    display: block;
+  }
+  
 }
