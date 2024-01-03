@@ -6,6 +6,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
 body {
   background-color: #ECECEC;
   font-weight: bold;
@@ -14,6 +15,7 @@ body {
   text-align: center;
   line-height: 24px;
 }
+
 #wrapper {
   background-color: #FFF;
   border: 1px solid #c0c0c0;
@@ -22,6 +24,7 @@ body {
   margin-left: auto;
   text-shadow: 2px 2px #000;
 }
+
 #navy {
   background-color: #001f3f;
   position: absolute;
@@ -30,6 +33,7 @@ body {
   width:100px;
   height:100px;
 }
+
 #teal {
   background-color: #39CCCC;
   position: absolute;
@@ -38,6 +42,7 @@ body {
   width:100px;
   height:100px;
 }
+
 #blue {
   background-color: #0074D9;
   position: absolute;
@@ -46,6 +51,7 @@ body {
   width:100px;
   height:100px;
 }
+
 #aqua {
   background-color: #7FDBFF;
   position: absolute;
@@ -54,6 +60,7 @@ body {
   width:100px;
   height:100px;
 }
+
 #footer {
   background-color: #666;
   width:100px;
@@ -64,6 +71,7 @@ body {
   margin-top: 50px;
   margin-left: 50px;
 }
+
 h1 {
   color: #000;
   font-weight: normal;
